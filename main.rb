@@ -10,13 +10,13 @@ p = 2.0
 z = 6.0
 
 puts "Player count:"
-k = gets.to_i
+k = gets.to_f
 
 puts "Deck count:"
-p = gets.to_i
+p = gets.to_f
 
 puts "Amount of sides that die has (usually 6):"
-z = gets.to_i
+z = gets.to_f
 
 # Cards per deck
 n = 52.0
@@ -28,7 +28,7 @@ t = p * n
 s = t / k
 
 # Joker count
-f = 2 * p
+f = 2.0 * p
 
 # Jokers in each player
 q = f / k
